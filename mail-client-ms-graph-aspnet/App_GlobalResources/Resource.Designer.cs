@@ -79,7 +79,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Microsoft Graph Connect sample for ASP.NET 4.6.
+        ///   Looks up a localized string similar to Microsoft Graph Mail Client.
         /// </summary>
         internal static string App_Name {
             get {
@@ -88,7 +88,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Microsoft Graph Connect sample.
+        ///   Looks up a localized string similar to MS Graph Mail Client.
         /// </summary>
         internal static string App_Name_Short {
             get {
@@ -172,7 +172,7 @@ namespace Resources {
         ///&lt;p&gt;What&apos;s next?&lt;/p&gt;
         ///&lt;p&gt;Use the Microsoft Graph .NET Client Library to integrate Office 365 services and data into your own apps.&lt;/p&gt;
         ///&lt;h2&gt;Give us feedback&lt;/h2&gt;
-        ///&lt;p&gt;We hope you found this sam [rest of string was truncated]&quot;;.
+        ///&lt;p&gt;We hope you found this sample useful.  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Graph_SendMail_Body_Content {
             get {
@@ -258,6 +258,15 @@ namespace Resources {
         internal static string Home {
             get {
                 return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Inbox.
+        /// </summary>
+        internal static string Inbox {
+            get {
+                return ResourceManager.GetString("Inbox", resourceCulture);
             }
         }
         

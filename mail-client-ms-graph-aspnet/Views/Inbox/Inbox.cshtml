@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Inbox";
+}
+
+<h2>Inbox</h2>
+
+<table>
+    @foreach (var item in ViewBag.InboxMail) {
+        <tr>
+            <td>
+                @item.Subject
+            </td>
+        </tr>
+    }
+</table>
